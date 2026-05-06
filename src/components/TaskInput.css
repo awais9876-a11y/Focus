@@ -1,0 +1,27 @@
+.formStyle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.inputStyle {
+  flex-grow: 1;
+  padding: 0.75rem 1rem;
+  background-color: #f1f5f9;
+  border-radius: 0.75rem;
+  border: none;
+  color: #1e293b;
+  font-size: 0.95rem;
+}
+
+.buttonStyle {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

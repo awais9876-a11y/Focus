@@ -1,0 +1,27 @@
+.focuscont {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  color: #6ee7b7;
+}
+
+.innerdev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 2rem;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.outerCon {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

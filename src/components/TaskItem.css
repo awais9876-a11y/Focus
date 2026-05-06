@@ -1,0 +1,32 @@
+.itemStyle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem;
+  background-color: #fafafa;
+  border-radius: 1rem;
+  border: 1px solid #e2e8f0;
+}
+
+.checkboxStyle {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textStyle {
+  font-style: 1rem;
+}
+
+.deleteBtn {
+  margin-left: auto;
+  cursor: pointer;
+  color: #ef4444;
+  border: none;
+  background: none;
+  font: 1.2rem;
+}
