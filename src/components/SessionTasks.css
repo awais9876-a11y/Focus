@@ -1,8 +1,3 @@
-/* display: "flex",
-        flexDirection: "column",
-        maxWidth: "500px",
-        margin: "0 auto", */
-
 .outer {
   display: flex;
   flex-direction: column;

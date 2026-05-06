@@ -2,12 +2,6 @@ import React from "react";
 import "./TaskItem.css";
 
 const TaskItem = ({ task, onToggleComplete, onDeleteTask }) => {
-  const textStyle = {
-    color: task.completed ? "#94a3b8" : "#1e293b",
-    textDecoration: task.completed ? "line-through" : "none",
-    fontSize: "1rem",
-  };
-
   return (
     <div className="itemStyle">
       <div

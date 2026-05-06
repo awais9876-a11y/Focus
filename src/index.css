@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #0d9488; /* Teal */
-  --accent-color: #6366f1; /* Purple */
+  --primary-color: #0d9488;
+  --accent-color: #6366f1;
   --bg-color-main: #ffffff;
   --bg-color-tasks: #fafafa;
   --text-dark: #111827;
@@ -23,7 +23,6 @@ body {
   font-family: "Courier New", monospace;
 }
 
-/* Common utility classes */
 .flex {
   display: flex;
 }

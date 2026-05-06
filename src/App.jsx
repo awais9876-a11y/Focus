@@ -1,7 +1,6 @@
 import React from "react";
 import DevFocusTimer from "./components/DevFocusTimer";
 import SessionTasks from "./components/SessionTasks";
-import "./index.css";
 
 function App() {
   const containerStyle = {

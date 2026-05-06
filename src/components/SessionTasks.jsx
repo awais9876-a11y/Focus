@@ -4,11 +4,7 @@ import TaskList from "./TaskList";
 import "./SessionTasks.css";
 
 const SessionTasks = () => {
-  const [tasks, setTasks] = useState([
-    { id: 1, text: "Learn React useState", completed: true },
-    { id: 2, text: "jkafh'", completed: false },
-    { id: 3, text: "lajhf", completed: false },
-  ]);
+  const [tasks, setTasks] = useState([]);
 
   const addTask = (taskText) => {
     if (taskText.trim()) {
